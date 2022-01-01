@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bizom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_claim">Add Claims</string>
+    <string name="add_claim_item">Add Claim Item</string>
+    <string name="submit">Submit</string>
+</resources>

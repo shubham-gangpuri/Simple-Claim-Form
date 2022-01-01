@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.android.bizom.presentation.claims.addclaim.adapter.utils.SingleLineTextAllCapsVM" />
+    </data>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="@dimen/dp_10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/label"
+        android:text="@{viewModel.label}"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="@dimen/sp_15"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/result_txt"
+        app:layout_constraintTop_toBottomOf="@id/label"
+        android:text="@={viewModel.input}"
+        android:layout_width="match_parent"
+        android:textAllCaps="true"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

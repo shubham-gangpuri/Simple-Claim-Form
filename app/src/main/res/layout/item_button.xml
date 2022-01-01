@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.android.bizom.presentation.claims.addclaim.adapter.utils.ItemButtonVM" />
+    </data>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="@dimen/dp_10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_button_view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/add_claim_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        app:layout_constraintTop_toBottomOf="@id/add_button_view"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

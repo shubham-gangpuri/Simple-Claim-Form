@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../Users/shubhamgangpuri/Library/Android/sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.25052083333333336" />
+        <entry key="../../../layout/custom_preview.xml" value="0.265625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_claim.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_old_claims.xml" value="0.25052083333333336" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_button.xml" value="0.25052083333333336" />
+        <entry key="app/src/main/res/layout/item_date.xml" value="0.25052083333333336" />
+        <entry key="app/src/main/res/layout/item_dropdown.xml" value="0.15172101449275363" />
+        <entry key="app/src/main/res/layout/item_single_line_all_caps.xml" value="0.2974976830398517" />
+        <entry key="app/src/main/res/menu/menu_bar.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
